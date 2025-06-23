@@ -55,7 +55,15 @@ export default function Home() {
           </p>
 
           <button
-            onClick={() => setIsModalOpen(true)}
+            onClick={() => {
+              setIsModalOpen(true);
+              if (typeof fbq !== "undefined") {
+                fbq("trackCustom", "OpenModalButtonClicked", {
+                  buttonText: "Bepul qatnashish",
+                  page: window.location.pathname,
+                });
+              }
+            }}
             className={styles.freeJoinBtn}
           >
             <span> Bepul qatnashish</span>
