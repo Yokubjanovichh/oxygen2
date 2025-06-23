@@ -20,7 +20,7 @@ html {
   width: 100%;
   background: white;
   display: flex;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .left {
