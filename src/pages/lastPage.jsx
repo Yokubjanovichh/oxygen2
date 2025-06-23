@@ -26,7 +26,9 @@ export default function lastPage() {
 
           <button
             className={styles.btnToTg}
-            onClick={() => window.open("https://t.me/yokubjanovich", "_blank")}
+            onClick={() =>
+              window.open("https://t.me/+KSqebVwy3z81NmM6", "_blank")
+            }
           >
             <img src={tgIcon} alt="tgIcon" />
             <span>Telegram Kanal</span>
