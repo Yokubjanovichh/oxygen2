@@ -49,9 +49,15 @@ export default function Home() {
             <p className={styles.navbarText}>20:30</p>
           </div>
           <div className={styles.price}>2000$</div>
+
           <p className={styles.bodyText}>
             DAN boshlanuvchi to’lov qilib, qolganini 24 oyga bo’lib to’lash
             imkoniyati
+          </p>
+
+          <p className={styles.bodyText2}>
+            30-iyunda bo’ladigan Bepul Online Taqdimotda qatnashib maxsus
+            chegirmaga ega bo’ling!
           </p>
 
           <button
@@ -68,11 +74,6 @@ export default function Home() {
           >
             <span> Bepul qatnashish</span>
           </button>
-
-          <p className={styles.bodyText2}>
-            30-iyunda bo’ladigan Bepul Online Taqdimotda qatnashib maxsus
-            chegirmaga ega bo’ling!
-          </p>
 
           <div className={styles.businessDirektor}>
             <div className={styles.avatar}>
